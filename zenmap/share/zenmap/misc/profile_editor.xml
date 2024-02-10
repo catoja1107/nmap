@@ -85,6 +85,7 @@ short_desc="SCTP is a layer 4 protocol used mostly for telephony related applica
 		<option_check option="-e" label="Set network interface" short_desc="Tells Nmap what interface to send and receive packets on." example="eth0"/>
 	</Source>
 	<Other label="Other options">
+		<option_check option="" label="Dark Mode" short_desc="Set ZenMap GUI to Dark Mode." example=""/>
 		<option_check option="" label="Extra options defined by user" short_desc="Any extra options to add to the command line." example=""/>
 		<option_check option="--ttl" label="Set IPv4 time to live (ttl)" short_desc="Set the IPv4 time-to-live field in sent packets to the given value." example="100"/>
 		<option_check option="-f" label="Fragment IP packets" short_desc="Causes the requested scan (including ping scans) to split up TCP headers over several packets." example=""/>
