@@ -89,6 +89,10 @@ except Exception:
     from gi.repository import Gtk, Gdk
 warnings.resetwarnings()
 
+settings = Gtk.Settings.get_default()
+settings.set_property("gtk-theme-name", "Numix")
+settings.set_property("gtk-application-prefer-dark-theme", True)
+
 from zenmapGUI.higwidgets.higdialogs import HIGAlertDialog
 
 from zenmapCore.UmitConf import is_maemo, SearchConfig
